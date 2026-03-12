@@ -1,0 +1,156 @@
+{
+  "dependencies": [
+    {
+      "extras": [
+        "tests",
+        "opensearch2",
+        "s3",
+        "devs",
+        "s3fs",
+        "oaipmh",
+        "rdf",
+        "sparql",
+        "postgresql",
+        "admin"
+      ],
+      "freeze": [
+        "setuptools<82.0.0"
+      ],
+      "patched_reference": {
+        "actual_version": "2.3.0",
+        "base": null,
+        "branch": null,
+        "commit": "23d27aefd20f335906380b05852960b0ccf7a54b",
+        "commits_from_version": [],
+        "org": "inveniosoftware",
+        "package": "invenio-db",
+        "pr": null,
+        "pr_info": null,
+        "repo": "invenio-db"
+      },
+      "patches": [
+        {
+          "actual_version": null,
+          "base": null,
+          "branch": null,
+          "commit": "326e042f6944fd95839d6d732d79dcaacacaf345",
+          "commits_from_version": null,
+          "org": "inveniosoftware",
+          "package": "invenio-db",
+          "pr": 198,
+          "pr_info": {
+            "commits": [
+              "f2964202ac129575c1bd2f7de5590e4f6b19e2e7",
+              "d1a33322474ca5ec59dc465651cf27a754489182",
+              "925969241f7e11f30041abac0b4b627c60df689e",
+              "326e042f6944fd95839d6d732d79dcaacacaf345"
+            ],
+            "source_branch": "config-override-postgres-only",
+            "source_org": "palkerecsenyi",
+            "source_repo": "invenio-db"
+          },
+          "repo": "invenio-db"
+        }
+      ],
+      "reference": {
+        "actual_version": "2.1.2",
+        "base": null,
+        "branch": "v2.1.2",
+        "commit": "513660c7e5bccff79f420231d164876c99af6d74",
+        "commits_from_version": [],
+        "org": "inveniosoftware",
+        "package": "invenio-db",
+        "pr": null,
+        "pr_info": null,
+        "repo": "invenio-db"
+      },
+      "test": [
+        "./run-tests.sh"
+      ],
+      "unpatched_reference": {
+        "actual_version": "2.3.0",
+        "base": null,
+        "branch": null,
+        "commit": "23d27aefd20f335906380b05852960b0ccf7a54b",
+        "commits_from_version": [],
+        "org": "inveniosoftware",
+        "package": "invenio-db",
+        "pr": null,
+        "pr_info": null,
+        "repo": "invenio-db"
+      }
+    }
+  ],
+  "package": {
+    "extras": [
+      "tests",
+      "opensearch2",
+      "s3",
+      "devs",
+      "s3fs",
+      "oaipmh",
+      "rdf",
+      "sparql",
+      "postgresql",
+      "admin"
+    ],
+    "freeze": [
+      "setuptools<82.0.0"
+    ],
+    "patched_reference": null,
+    "patches": [],
+    "reference": {
+      "actual_version": "0.3.2",
+      "base": null,
+      "branch": "v0.3.2",
+      "commit": "63796f9e672cac97882dfde40c05649506b81d6d",
+      "commits_from_version": [],
+      "org": "inveniosoftware",
+      "package": "invenio-audit-logs",
+      "pr": null,
+      "pr_info": null,
+      "repo": "invenio-audit-logs"
+    },
+    "test": [
+      "./run-tests.sh"
+    ],
+    "unpatched_reference": {
+      "actual_version": "1.0.0.dev1",
+      "base": null,
+      "branch": null,
+      "commit": "01e8313cac60ba3f512d27f500371747036751f2",
+      "commits_from_version": [
+        "3682a59d05b286385d26113e1c79b429123706a4",
+        "d3a03de49a2f258e16f79f0d59271c86fa6fcce5",
+        "aea8af70282ff68637c64bd1335a5371bfc8b5dc",
+        "5f64987b430185003ad9337a7d2d74557d3339e0",
+        "e3980eff051d18afd9107fe158f5945efe0e7574",
+        "c20d30b3a95e68edd7c76087b08176eeb5184b8c",
+        "fd9e4a6ffd0312fe19dbdc0ec334a0494d749666",
+        "85b7c3137f45a50343d5eaeddab2051f2b40faa5",
+        "f6ce9c02b07cedd59a81417767f03ff278a84473",
+        "9710460ae6b0f3b762b89cdc6a1763aae7e2fd29",
+        "6a1090e7a981a1da8cc9e520e4e4aaab289fd84e",
+        "f517813b68ac6052aefcff23ebe85ef8085f9361",
+        "cc85d100909c8b2c64f805f00ddf5934bfd5a6d1",
+        "e6d60a3d4f35e468d1132a81520ab502d629d15f",
+        "27a0287a59b6dadf7d9c0689bb562391e4518a1e",
+        "18c71e559f2adae6f14681fcf66b6326407c6a8d",
+        "7b6a00c1eb52c0b0fe2c53366b17618ea377fc40",
+        "63796f9e672cac97882dfde40c05649506b81d6d",
+        "38be73c5305e80b616b63bc7c33904639cd8255c",
+        "164142fc9336047f72589327ccf68bed2a631c27",
+        "20506d1587ec99cfdfa9562b12e0c124a1baa24a",
+        "9ca0df930c3ba6ae7ec13c1301f27a6c3b104b7c",
+        "9e2d60fb3168b0c7910faa6fbdf6f4fbe3302cce",
+        "01e8313cac60ba3f512d27f500371747036751f2"
+      ],
+      "org": "inveniosoftware",
+      "package": "invenio-audit-logs",
+      "pr": null,
+      "pr_info": null,
+      "repo": "invenio-audit-logs"
+    }
+  },
+  "status": "success"
+}

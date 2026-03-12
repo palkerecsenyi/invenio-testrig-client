@@ -1,0 +1,118 @@
+{
+  "config_name": "Invenio Testrig",
+  "patch_mode": "Upstream baseline (patches rebased on upstream, unpatched are upstream)",
+  "test_mode": "Test patched first, retry unpatched on failure",
+  "test_scope": "All packages",
+  "started_at": "2026-03-12 13:17:37 UTC",
+  "python_version": "3.14.2",
+  "last_updated": "2026-03-12 13:39:25 UTC",
+  "total_unique_warnings": 9,
+  "total_packages_with_warnings": 7,
+  "total_warning_occurrences": 10,
+  "warnings": [
+    {
+      "text": "UserWarning: Set configuration variable SECRET_KEY with random string",
+      "total_count": 2,
+      "packages": [
+        {
+          "name": "invenio-app",
+          "count": 1,
+          "link": "artifacts/invenio-app/original_log.log"
+        },
+        {
+          "name": "invenio-config",
+          "count": 1,
+          "link": "artifacts/invenio-config/original_log.log"
+        }
+      ]
+    },
+    {
+      "text": "DeprecationWarning: No path_separator found in configuration; falling back to legacy splitting on spaces/commas for version_locations.  Consider adding path_separator=os to Alembic config.",
+      "total_count": 1,
+      "packages": [
+        {
+          "name": "invenio-db",
+          "count": 1,
+          "link": "artifacts/invenio-db/patched_log.log"
+        }
+      ]
+    },
+    {
+      "text": "DeprecationWarning: Using the initialization functions in flask_caching.backend is deprecated.  Use the a full path to backend classes directly.",
+      "total_count": 1,
+      "packages": [
+        {
+          "name": "invenio-cache",
+          "count": 1,
+          "link": "artifacts/invenio-cache/original_log.log"
+        }
+      ]
+    },
+    {
+      "text": "PendingDeprecationWarning: The WSGI_PROXIES configuration is deprecated and it will be removed, use PROXYFIX_CONFIG instead",
+      "total_count": 1,
+      "packages": [
+        {
+          "name": "invenio-base",
+          "count": 1,
+          "link": "artifacts/invenio-base/original_log.log"
+        }
+      ]
+    },
+    {
+      "text": "PendingDeprecationWarning: `use_markdown=` will be deprecated in a future version of rich-click. Please use `text_markup=` instead.",
+      "total_count": 1,
+      "packages": [
+        {
+          "name": "invenio-i18n",
+          "count": 1,
+          "link": "artifacts/invenio-i18n/original_log.log"
+        }
+      ]
+    },
+    {
+      "text": "PendingDeprecationWarning: `use_rich_markup=` will be deprecated in a future version of rich-click. Please use `text_markup=` instead.",
+      "total_count": 1,
+      "packages": [
+        {
+          "name": "invenio-i18n",
+          "count": 1,
+          "link": "artifacts/invenio-i18n/original_log.log"
+        }
+      ]
+    },
+    {
+      "text": "PytestConfigWarning: Unknown config option: pep8ignore",
+      "total_count": 1,
+      "packages": [
+        {
+          "name": "invenio-jsonschemas",
+          "count": 1,
+          "link": "artifacts/invenio-jsonschemas/original_log.log"
+        }
+      ]
+    },
+    {
+      "text": "UserWarning: Test",
+      "total_count": 1,
+      "packages": [
+        {
+          "name": "invenio-base",
+          "count": 1,
+          "link": "artifacts/invenio-base/original_log.log"
+        }
+      ]
+    },
+    {
+      "text": "UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.",
+      "total_count": 1,
+      "packages": [
+        {
+          "name": "invenio-app",
+          "count": 1,
+          "link": "artifacts/invenio-app/original_log.log"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "dependencies": [],
+  "package": {
+    "extras": [],
+    "freeze": [],
+    "patched_reference": null,
+    "patches": [],
+    "reference": {
+      "actual_version": "22.5.0",
+      "base": null,
+      "branch": "master",
+      "commit": "ead69236a26a10b21875bad6bdda4bcab391d093",
+      "commits_from_version": [],
+      "org": "zenodo",
+      "package": "zenodo-rdm",
+      "pr": null,
+      "pr_info": null,
+      "repo": "zenodo-rdm"
+    },
+    "test": [],
+    "unpatched_reference": null
+  },
+  "status": "skipped"
+}

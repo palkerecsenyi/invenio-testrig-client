@@ -1,0 +1,131 @@
+{
+  "dependencies": [
+    {
+      "extras": [
+        "tests",
+        "opensearch2",
+        "s3",
+        "devs",
+        "s3fs",
+        "oaipmh",
+        "rdf",
+        "sparql",
+        "postgresql",
+        "admin"
+      ],
+      "freeze": [
+        "setuptools<82.0.0"
+      ],
+      "patched_reference": {
+        "actual_version": "2.3.0",
+        "base": null,
+        "branch": null,
+        "commit": "23d27aefd20f335906380b05852960b0ccf7a54b",
+        "commits_from_version": [],
+        "org": "inveniosoftware",
+        "package": "invenio-db",
+        "pr": null,
+        "pr_info": null,
+        "repo": "invenio-db"
+      },
+      "patches": [
+        {
+          "actual_version": null,
+          "base": null,
+          "branch": null,
+          "commit": "326e042f6944fd95839d6d732d79dcaacacaf345",
+          "commits_from_version": null,
+          "org": "inveniosoftware",
+          "package": "invenio-db",
+          "pr": 198,
+          "pr_info": {
+            "commits": [
+              "f2964202ac129575c1bd2f7de5590e4f6b19e2e7",
+              "d1a33322474ca5ec59dc465651cf27a754489182",
+              "925969241f7e11f30041abac0b4b627c60df689e",
+              "326e042f6944fd95839d6d732d79dcaacacaf345"
+            ],
+            "source_branch": "config-override-postgres-only",
+            "source_org": "palkerecsenyi",
+            "source_repo": "invenio-db"
+          },
+          "repo": "invenio-db"
+        }
+      ],
+      "reference": {
+        "actual_version": "2.1.2",
+        "base": null,
+        "branch": "v2.1.2",
+        "commit": "513660c7e5bccff79f420231d164876c99af6d74",
+        "commits_from_version": [],
+        "org": "inveniosoftware",
+        "package": "invenio-db",
+        "pr": null,
+        "pr_info": null,
+        "repo": "invenio-db"
+      },
+      "test": [
+        "./run-tests.sh"
+      ],
+      "unpatched_reference": {
+        "actual_version": "2.3.0",
+        "base": null,
+        "branch": null,
+        "commit": "23d27aefd20f335906380b05852960b0ccf7a54b",
+        "commits_from_version": [],
+        "org": "inveniosoftware",
+        "package": "invenio-db",
+        "pr": null,
+        "pr_info": null,
+        "repo": "invenio-db"
+      }
+    }
+  ],
+  "package": {
+    "extras": [
+      "tests",
+      "opensearch2",
+      "s3",
+      "devs",
+      "s3fs",
+      "oaipmh",
+      "rdf",
+      "sparql",
+      "postgresql",
+      "admin"
+    ],
+    "freeze": [
+      "setuptools<82.0.0"
+    ],
+    "patched_reference": null,
+    "patches": [],
+    "reference": {
+      "actual_version": "1.2.1",
+      "base": null,
+      "branch": "v1.2.1",
+      "commit": "befa10cbea35bebe73485d8d5eaf0bebc3aafdb7",
+      "commits_from_version": [],
+      "org": "inveniosoftware",
+      "package": "invenio-records-files",
+      "pr": null,
+      "pr_info": null,
+      "repo": "invenio-records-files"
+    },
+    "test": [
+      "./run-tests.sh"
+    ],
+    "unpatched_reference": {
+      "actual_version": "2.0.0",
+      "base": null,
+      "branch": null,
+      "commit": "1405225ed3b5a813bbec8a68c81fd106afcee64c",
+      "commits_from_version": [],
+      "org": "inveniosoftware",
+      "package": "invenio-records-files",
+      "pr": null,
+      "pr_info": null,
+      "repo": "invenio-records-files"
+    }
+  },
+  "status": "success"
+}

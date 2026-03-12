@@ -1,0 +1,36 @@
+ opensearch Pulling 
+ opensearch Pulled 
+ Network docker_services_cli_default  Creating
+ Network docker_services_cli_default  Created
+ Container docker_services_cli-opensearch-1  Creating
+ Container docker_services_cli-opensearch-1  Created
+ Container docker_services_cli-opensearch-1  Starting
+ Container docker_services_cli-opensearch-1  Started
+============================= test session starts ==============================
+platform linux -- Python 3.14.2, pytest-8.4.2, pluggy-1.6.0
+rootdir: /home/runner/work/invenio-testrig-client/invenio-testrig-client/workdir/tests/pytest-invenio/patched
+configfile: setup.cfg
+testpaths: tests, pytest_invenio
+plugins: invenio-4.0.0, github-actions-annotate-failures-0.4.0, isort-4.0.0, flask-1.3.0, pydocstyle-2.4.0, cov-7.0.0, black-0.6.0, pycodestyle-2.5.0
+collected 46 items
+tests/conftest.py ...                                                    [  6%]
+tests/test_fixtures.py ........................s......                   [ 73%]
+pytest_invenio/__init__.py ...                                           [ 80%]
+pytest_invenio/fixtures.py ...                                           [ 86%]
+pytest_invenio/plugin.py ...                                             [ 93%]
+pytest_invenio/user.py ...                                               [100%]
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.14.2-final-0 ________________
+Name                         Stmts   Miss  Cover   Missing
+pytest_invenio/__init__.py       2      2     0%   502-504
+pytest_invenio/fixtures.py     317    317     0%   13-1025
+pytest_invenio/plugin.py        14     10    29%   22-61, 78-90
+pytest_invenio/user.py          91     91     0%   13-183
+TOTAL                          424    420     1%
+======================== 45 passed, 1 skipped in 37.96s ========================
+ Container docker_services_cli-opensearch-1  Stopping
+ Container docker_services_cli-opensearch-1  Stopped
+ Container docker_services_cli-opensearch-1  Removing
+ Container docker_services_cli-opensearch-1  Removed
+ Network docker_services_cli_default  Removing
+ Network docker_services_cli_default  Removed
